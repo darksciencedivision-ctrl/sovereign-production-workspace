@@ -1,0 +1,17 @@
+{
+  "snapshot_utc": "2026-08-22T20:59:19Z",
+  "source": "D:\\Product Software\\Production Workspace",
+  "workspace_files": 1339,
+  "added": 21,
+  "changed": 4,
+  "removed": 0,
+  "unchanged": 1314,
+  "excluded_by_category": {
+    "modules/sovereign runtime": 2,
+    "modules/sow untracked-local": 14,
+    "modules/sow junk": 616,
+    "pycache": 2,
+    "modules/debate runtime": 1,
+    "modules/sow runtime": 1
+  }
+}
