@@ -1,0 +1,20 @@
+# Runtime / install-time state of the workspace. Regenerate with workspace/README.md -> Install.
+workspace/modules/*/.venv/
+workspace/modules/sow/apps/desktop/node_modules/
+workspace/modules/sovereign/runtime/
+workspace/modules/sow/.sovereign_store/
+workspace/modules/sow/docs/loop/logs/
+workspace/modules/sow/apps/desktop/%SystemDrive%/
+workspace/modules/sow/apps/desktop/.approvals/
+workspace/modules/sow/apps/desktop/.recovery/
+workspace/modules/sow/apps/desktop/.voice-captures/
+workspace/modules/sow/config/live_operation.json
+workspace/modules/sow/.claude/settings.local.json
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+# Workspace evidence logs (workspace/evidence/**/*.log) are NOT ignored: they are hashed evidence.

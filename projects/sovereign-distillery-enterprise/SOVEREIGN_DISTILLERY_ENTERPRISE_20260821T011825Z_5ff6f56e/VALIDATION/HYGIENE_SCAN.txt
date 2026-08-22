@@ -1,0 +1,32 @@
+{
+  "compilation": {
+    "compile_ubuntu_wsl_python": {
+      "exit_code": 0,
+      "passed": true
+    },
+    "compile_windows_python_3_11": {
+      "exit_code": 0,
+      "passed": true
+    },
+    "compile_windows_python_3_14": {
+      "exit_code": 0,
+      "passed": true
+    }
+  },
+  "conflict_markers": {
+    "findings": [],
+    "passed": true
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "passed": true
+  },
+  "private_runtime_payloads_present": false,
+  "rc3_bundle": {
+    "exit_code": 0,
+    "passed": true,
+    "sha256": "1a2eaad8818821f37e5f55d56fd388292007c60bc021a0a9d39cd7db80ed2ae1"
+  },
+  "repository_worktree_clean_after_validation": true,
+  "weights_present": false
+}

@@ -1,0 +1,18 @@
+# utc: 2026-08-22T16:15:01Z
+# producer: ox-alpha GATE4B
+# proof: H-16 - WCAG contrast of the six C-2 token pairs, per theme; text pairings asserted >= 4.5:1, glyph pairings recorded vs 3:1
+
+dark  --text        on --bg    =  15.54:1  TEXT  OK
+dark  --text        on --panel =  14.36:1  TEXT  OK
+dark  --text-muted  on --panel =   5.71:1  TEXT  OK
+dark  --ok          on --panel =   8.60:1  TEXT  OK
+dark  --warning     on --panel =   8.00:1  TEXT  OK
+dark  --danger      on --panel =   4.79:1  TEXT  OK
+light --text        on --bg    =  15.01:1  TEXT  OK
+light --text        on --panel =  16.37:1  TEXT  OK
+light --text-muted  on --panel =   6.27:1  TEXT  OK
+light --ok          on --panel =   2.03:1  GLYPH (<3:1 - decorative dot redundant with its text label; see risk note)
+light --warning     on --panel =   2.19:1  GLYPH (<3:1 - decorative dot redundant with its text label; see risk note)
+light --danger      on --panel =   3.65:1  GLYPH (>=3:1)
+
+asserted: text-position pairings >= 4.5:1 in both themes -> PASS

@@ -1,0 +1,193 @@
+{
+  "created_at_utc": "2026-08-21T01:18:25Z",
+  "enterprise": {
+    "bundle": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e\\HISTORY\\SOVEREIGN_DISTILLERY_5ff6f56e.bundle",
+    "bundle_sha256": "ef5abf8cca241a673a8399af0e9d117cf15ed982a2ab7551633d6d46afa59341",
+    "bundle_verify": "PASS",
+    "disposition": "PASS_WITH_LIMITATIONS",
+    "exclusions": 0,
+    "generated_metadata": 24,
+    "limitations": [
+      "Pattern-based secret scanning is not an absolute guarantee.",
+      "The in-archive manifest cannot contain the ZIP's self-referential checksum; the adjacent unpacked manifest contains it."
+    ],
+    "root": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e",
+    "roundtrip": {
+      "entry_count": 155,
+      "passed": true,
+      "source_hash_mismatches": []
+    },
+    "security": {
+      "hard_secret_findings": [],
+      "known_private_runtime_payloads": [],
+      "model_weight_files": [],
+      "oversized_files": [],
+      "scope_note": "Pattern-based scan; no scanner can guarantee absence of every possible secret.",
+      "unexpected_binary_files": []
+    },
+    "sha256_file": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e.zip.sha256",
+    "snapshot_id": "SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e",
+    "source_files": 131,
+    "total_zip_entries": 155,
+    "validation": {
+      "compilation": {
+        "compile_ubuntu_wsl_python": {
+          "exit_code": 0,
+          "passed": true
+        },
+        "compile_windows_python_3_11": {
+          "exit_code": 0,
+          "passed": true
+        },
+        "compile_windows_python_3_14": {
+          "exit_code": 0,
+          "passed": true
+        }
+      },
+      "hygiene": {
+        "compilation": {
+          "compile_ubuntu_wsl_python": {
+            "exit_code": 0,
+            "passed": true
+          },
+          "compile_windows_python_3_11": {
+            "exit_code": 0,
+            "passed": true
+          },
+          "compile_windows_python_3_14": {
+            "exit_code": 0,
+            "passed": true
+          }
+        },
+        "conflict_markers": {
+          "findings": [],
+          "passed": true
+        },
+        "git_diff_check": {
+          "exit_code": 0,
+          "passed": true
+        },
+        "private_runtime_payloads_present": false,
+        "rc3_bundle": {
+          "exit_code": 0,
+          "passed": true,
+          "sha256": "1a2eaad8818821f37e5f55d56fd388292007c60bc021a0a9d39cd7db80ed2ae1"
+        },
+        "repository_worktree_clean_after_validation": true,
+        "weights_present": false
+      },
+      "json_parse": {
+        "errors": [],
+        "json_files": 38,
+        "jsonl_files": 1,
+        "passed": true
+      },
+      "json_schema": {
+        "exit_code": 0,
+        "passed": true
+      },
+      "markdown_links": {
+        "exit_code": 0,
+        "passed": true
+      },
+      "package_build": {
+        "artifacts": [
+          "sovereign_grounded_distillery-1.1.0rc3-py3-none-any.whl",
+          "sovereign_grounded_distillery-1.1.0rc3.tar.gz"
+        ],
+        "exit_code": 0,
+        "passed": true
+      },
+      "security": {
+        "hard_secret_findings": [],
+        "known_private_runtime_payloads": [],
+        "model_weight_files": [],
+        "oversized_files": [],
+        "scope_note": "Pattern-based scan; no scanner can guarantee absence of every possible secret.",
+        "unexpected_binary_files": []
+      },
+      "status": "PASS",
+      "tests": {
+        "test_ubuntu_wsl_python": {
+          "exit_code": 0,
+          "passed": true,
+          "reported_tests": 43
+        },
+        "test_windows_python_3_11": {
+          "exit_code": 0,
+          "passed": true,
+          "reported_tests": 43
+        },
+        "test_windows_python_3_14": {
+          "exit_code": 0,
+          "passed": true,
+          "reported_tests": 43
+        }
+      }
+    },
+    "zip": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e.zip",
+    "zip_bytes": 809904,
+    "zip_sha256": "620e8459c74fb5fe9d2dfe0c4693cea02b8346292804d2d2a01fb71cb615be96"
+  },
+  "model_compute_performed": false,
+  "raw_source": {
+    "classification_counts": {
+      "CONFIGURATION": 7,
+      "SHARED_DISTILLERY_CORE": 18,
+      "SOVEREIGN_SPECIFIC": 4,
+      "SOVEREIGN_TESTS": 5,
+      "SOVEREIGN_TOOLS": 3
+    },
+    "counts": {
+      "json": 7,
+      "powershell_modules_manifests": 0,
+      "powershell_ps1": 0,
+      "python": 30,
+      "tests": 5,
+      "total_source": 37
+    },
+    "disposition": "PASS",
+    "exclusions": {
+      "ambiguous": 2,
+      "binary": 0,
+      "invalid": 0,
+      "sensitive": 0,
+      "unrelated_grounded_or_nonessential_configuration": 36
+    },
+    "integrity": {
+      "json_parse": "PASS",
+      "powershell_parse": "NOT_APPLICABLE_NO_TRACKED_POWERSHELL_SELECTED",
+      "python_compile_and_ast_parse": "PASS",
+      "source_export_hash_parity": "PASS",
+      "zip_roundtrip": {
+        "entry_count": 42,
+        "passed": true,
+        "source_hash_mismatches": []
+      }
+    },
+    "root": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_RAW_SOURCE_20260821T011825Z_5ff6f56e",
+    "security": {
+      "hard_secret_findings": [],
+      "known_private_runtime_payloads": [],
+      "model_weight_files": [],
+      "oversized_files": [],
+      "scope_note": "Pattern-based scan; no scanner can guarantee absence of every possible secret.",
+      "unexpected_binary_files": []
+    },
+    "sha256_file": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_RAW_SOURCE_20260821T011825Z_5ff6f56e.zip.sha256",
+    "snapshot_id": "SOVEREIGN_DISTILLERY_RAW_SOURCE_20260821T011825Z_5ff6f56e",
+    "zip": "D:\\Sovereign-Enterprise-Snapshots\\SOVEREIGN_DISTILLERY_RAW_SOURCE_20260821T011825Z_5ff6f56e.zip",
+    "zip_bytes": 65147,
+    "zip_sha256": "7826dffbd59231058ad769155d7efc5e98fce11dea1bad6074630017a6e59cf9"
+  },
+  "remote_write_performed": false,
+  "source": {
+    "branch": "remediation/hardware-rebaseline-pre-hg3",
+    "head": "5ff6f56ea4448cbdf7384cbcba0f64073934ca05",
+    "merge_base": "44f69077f0d674bd7bef5730c2fe41a685e64b03",
+    "origin_main": "44f69077f0d674bd7bef5730c2fe41a685e64b03",
+    "repository": "D:\\Sovereign-Grounded-Distillery",
+    "working_tree_clean": true
+  },
+  "source_modified": false
+}

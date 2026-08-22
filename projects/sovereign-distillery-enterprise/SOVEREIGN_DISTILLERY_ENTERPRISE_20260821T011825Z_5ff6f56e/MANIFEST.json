@@ -1,0 +1,50 @@
+{
+  "archive_bytes": 809904,
+  "branch": "remediation/hardware-rebaseline-pre-hg3",
+  "created_at_utc": "2026-08-21T01:18:25Z",
+  "d9_state": "4_OF_4_UNKNOWN_FAIL_CLOSED",
+  "deployment_state": "NO_PRODUCTION_DEPLOYMENT",
+  "excluded_file_count": 0,
+  "g2_g6_state": "NOT_STARTED",
+  "git_bundle_present": true,
+  "head_sha": "5ff6f56ea4448cbdf7384cbcba0f64073934ca05",
+  "hg0_state": "PASS",
+  "hg1_state": "ENFORCEMENT_PASS_D9_PENDING",
+  "hg2_state": "PASS_SYNTHETIC",
+  "hg3_state": "BLOCKED_HARDWARE_CAPACITY",
+  "merge_base_sha": "44f69077f0d674bd7bef5730c2fe41a685e64b03",
+  "operator_notes": [
+    "Local HEAD is nine commits ahead of origin/main; no remote write was performed.",
+    "Enterprise packaging quality does not assert production maturity.",
+    "The in-archive snapshot_sha256 is null because a ZIP cannot stably contain its own checksum; the adjacent unpacked manifest is finalized after ZIP creation.",
+    "This unpacked manifest was finalized adjacent to the archive after the archive checksum became knowable; the in-archive manifest retains null for its self-referential ZIP checksum."
+  ],
+  "origin_main_sha": "44f69077f0d674bd7bef5730c2fe41a685e64b03",
+  "private_runtime_payloads_present": false,
+  "promotion_state": "NO_MODEL_PROMOTED",
+  "repository_path": "D:\\Sovereign-Grounded-Distillery",
+  "schema_status": "PASS",
+  "security_scan_status": "NO_KNOWN_SECRET_OR_PRIVATE_RUNTIME_PAYLOAD_DETECTED",
+  "snapshot_file_count": 155,
+  "snapshot_id": "SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e",
+  "snapshot_sha256": "620e8459c74fb5fe9d2dfe0c4693cea02b8346292804d2d2a01fb71cb615be96",
+  "source_file_count": 131,
+  "source_tree_bytes": 878131,
+  "student_4b_identity": {
+    "revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+    "status": "PINNED_FOR_HG3",
+    "student_id": "GND-STUDENT-4B",
+    "upstream_repo": "Qwen/Qwen3-4B-Base"
+  },
+  "student_8b_identity": {
+    "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+    "status": "PINNED_FOR_HG3",
+    "student_id": "GND-STUDENT-8B",
+    "upstream_repo": "Qwen/Qwen3-8B-Base"
+  },
+  "test_summary": "43/43 PASS on Windows Python 3.14, Windows Python 3.11, and Ubuntu/WSL",
+  "trainer_primary_state": "UNASSIGNED",
+  "validation_status": "PASS",
+  "weights_present": false,
+  "working_tree_clean": true
+}

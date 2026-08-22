@@ -1,0 +1,219 @@
+exit=0
+artifacts=['sovereign_grounded_distillery-1.1.0rc3-py3-none-any.whl', 'sovereign_grounded_distillery-1.1.0rc3.tar.gz']
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=77
+* Getting build dependencies for sdist...
+running egg_info
+creating sovereign_grounded_distillery.egg-info
+writing sovereign_grounded_distillery.egg-info\PKG-INFO
+writing dependency_links to sovereign_grounded_distillery.egg-info\dependency_links.txt
+writing entry points to sovereign_grounded_distillery.egg-info\entry_points.txt
+writing top-level names to sovereign_grounded_distillery.egg-info\top_level.txt
+writing manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+reading manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+writing manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+* Building sdist...
+running sdist
+running egg_info
+writing sovereign_grounded_distillery.egg-info\PKG-INFO
+writing dependency_links to sovereign_grounded_distillery.egg-info\dependency_links.txt
+writing entry points to sovereign_grounded_distillery.egg-info\entry_points.txt
+writing top-level names to sovereign_grounded_distillery.egg-info\top_level.txt
+reading manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+writing manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+running check
+creating sovereign_grounded_distillery-1.1.0rc3
+creating sovereign_grounded_distillery-1.1.0rc3\curation
+creating sovereign_grounded_distillery-1.1.0rc3\distillery
+creating sovereign_grounded_distillery-1.1.0rc3\exclusion
+creating sovereign_grounded_distillery-1.1.0rc3\gate
+creating sovereign_grounded_distillery-1.1.0rc3\grounded
+creating sovereign_grounded_distillery-1.1.0rc3\grounded\harness_adapters
+creating sovereign_grounded_distillery-1.1.0rc3\ops
+creating sovereign_grounded_distillery-1.1.0rc3\source_admission
+creating sovereign_grounded_distillery-1.1.0rc3\sovereign_grounded_distillery.egg-info
+creating sovereign_grounded_distillery-1.1.0rc3\tests
+creating sovereign_grounded_distillery-1.1.0rc3\train
+creating sovereign_grounded_distillery-1.1.0rc3\validators
+copying files to sovereign_grounded_distillery-1.1.0rc3...
+copying README.md -> sovereign_grounded_distillery-1.1.0rc3
+copying pyproject.toml -> sovereign_grounded_distillery-1.1.0rc3
+copying curation\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\curation
+copying curation\shard.py -> sovereign_grounded_distillery-1.1.0rc3\curation
+copying distillery\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\distillery
+copying distillery\common.py -> sovereign_grounded_distillery-1.1.0rc3\distillery
+copying exclusion\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\exclusion
+copying gate\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\gate
+copying gate\controlled.py -> sovereign_grounded_distillery-1.1.0rc3\gate
+copying gate\experiment_db.py -> sovereign_grounded_distillery-1.1.0rc3\gate
+copying gate\historical.py -> sovereign_grounded_distillery-1.1.0rc3\gate
+copying gate\paired.py -> sovereign_grounded_distillery-1.1.0rc3\gate
+copying grounded\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\grounded
+copying grounded\cli.py -> sovereign_grounded_distillery-1.1.0rc3\grounded
+copying grounded\curation.py -> sovereign_grounded_distillery-1.1.0rc3\grounded
+copying grounded\g0_live.py -> sovereign_grounded_distillery-1.1.0rc3\grounded
+copying grounded\monitoring.py -> sovereign_grounded_distillery-1.1.0rc3\grounded
+copying grounded\telemetry.py -> sovereign_grounded_distillery-1.1.0rc3\grounded
+copying grounded\harness_adapters\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\grounded\harness_adapters
+copying grounded\harness_adapters\sovereign_product.py -> sovereign_grounded_distillery-1.1.0rc3\grounded\harness_adapters
+copying ops\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\ops
+copying ops\bundle.py -> sovereign_grounded_distillery-1.1.0rc3\ops
+copying ops\evidence.py -> sovereign_grounded_distillery-1.1.0rc3\ops
+copying ops\promotion.py -> sovereign_grounded_distillery-1.1.0rc3\ops
+copying source_admission\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\source_admission
+copying sovereign_grounded_distillery.egg-info\PKG-INFO -> sovereign_grounded_distillery-1.1.0rc3\sovereign_grounded_distillery.egg-info
+copying sovereign_grounded_distillery.egg-info\SOURCES.txt -> sovereign_grounded_distillery-1.1.0rc3\sovereign_grounded_distillery.egg-info
+copying sovereign_grounded_distillery.egg-info\dependency_links.txt -> sovereign_grounded_distillery-1.1.0rc3\sovereign_grounded_distillery.egg-info
+copying sovereign_grounded_distillery.egg-info\entry_points.txt -> sovereign_grounded_distillery-1.1.0rc3\sovereign_grounded_distillery.egg-info
+copying sovereign_grounded_distillery.egg-info\top_level.txt -> sovereign_grounded_distillery-1.1.0rc3\sovereign_grounded_distillery.egg-info
+copying tests\test_contract_files.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying tests\test_exclusion_and_telemetry.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying tests\test_gate.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying tests\test_live_g0.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying tests\test_ops_and_train.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying tests\test_source_and_shards.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying tests\test_treaty_contracts.py -> sovereign_grounded_distillery-1.1.0rc3\tests
+copying train\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\train
+copying train\card_lock.py -> sovereign_grounded_distillery-1.1.0rc3\train
+copying validators\__init__.py -> sovereign_grounded_distillery-1.1.0rc3\validators
+Writing sovereign_grounded_distillery-1.1.0rc3\setup.cfg
+Creating tar archive
+removing 'sovereign_grounded_distillery-1.1.0rc3' (and everything under it)
+* Building wheel from sdist
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=77
+* Getting build dependencies for wheel...
+running egg_info
+writing sovereign_grounded_distillery.egg-info\PKG-INFO
+writing dependency_links to sovereign_grounded_distillery.egg-info\dependency_links.txt
+writing entry points to sovereign_grounded_distillery.egg-info\entry_points.txt
+writing top-level names to sovereign_grounded_distillery.egg-info\top_level.txt
+reading manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+writing manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build\lib\curation
+copying curation\shard.py -> build\lib\curation
+copying curation\__init__.py -> build\lib\curation
+creating build\lib\distillery
+copying distillery\common.py -> build\lib\distillery
+copying distillery\__init__.py -> build\lib\distillery
+creating build\lib\exclusion
+copying exclusion\__init__.py -> build\lib\exclusion
+creating build\lib\gate
+copying gate\controlled.py -> build\lib\gate
+copying gate\experiment_db.py -> build\lib\gate
+copying gate\historical.py -> build\lib\gate
+copying gate\paired.py -> build\lib\gate
+copying gate\__init__.py -> build\lib\gate
+creating build\lib\grounded
+copying grounded\cli.py -> build\lib\grounded
+copying grounded\curation.py -> build\lib\grounded
+copying grounded\g0_live.py -> build\lib\grounded
+copying grounded\monitoring.py -> build\lib\grounded
+copying grounded\telemetry.py -> build\lib\grounded
+copying grounded\__init__.py -> build\lib\grounded
+creating build\lib\ops
+copying ops\bundle.py -> build\lib\ops
+copying ops\evidence.py -> build\lib\ops
+copying ops\promotion.py -> build\lib\ops
+copying ops\__init__.py -> build\lib\ops
+creating build\lib\source_admission
+copying source_admission\__init__.py -> build\lib\source_admission
+creating build\lib\train
+copying train\card_lock.py -> build\lib\train
+copying train\__init__.py -> build\lib\train
+creating build\lib\validators
+copying validators\__init__.py -> build\lib\validators
+creating build\lib\grounded\harness_adapters
+copying grounded\harness_adapters\sovereign_product.py -> build\lib\grounded\harness_adapters
+copying grounded\harness_adapters\__init__.py -> build\lib\grounded\harness_adapters
+running egg_info
+writing sovereign_grounded_distillery.egg-info\PKG-INFO
+writing dependency_links to sovereign_grounded_distillery.egg-info\dependency_links.txt
+writing entry points to sovereign_grounded_distillery.egg-info\entry_points.txt
+writing top-level names to sovereign_grounded_distillery.egg-info\top_level.txt
+reading manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+writing manifest file 'sovereign_grounded_distillery.egg-info\SOURCES.txt'
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\curation
+copying build\lib\curation\shard.py -> build\bdist.win-amd64\wheel\.\curation
+copying build\lib\curation\__init__.py -> build\bdist.win-amd64\wheel\.\curation
+creating build\bdist.win-amd64\wheel\distillery
+copying build\lib\distillery\common.py -> build\bdist.win-amd64\wheel\.\distillery
+copying build\lib\distillery\__init__.py -> build\bdist.win-amd64\wheel\.\distillery
+creating build\bdist.win-amd64\wheel\exclusion
+copying build\lib\exclusion\__init__.py -> build\bdist.win-amd64\wheel\.\exclusion
+creating build\bdist.win-amd64\wheel\gate
+copying build\lib\gate\controlled.py -> build\bdist.win-amd64\wheel\.\gate
+copying build\lib\gate\experiment_db.py -> build\bdist.win-amd64\wheel\.\gate
+copying build\lib\gate\historical.py -> build\bdist.win-amd64\wheel\.\gate
+copying build\lib\gate\paired.py -> build\bdist.win-amd64\wheel\.\gate
+copying build\lib\gate\__init__.py -> build\bdist.win-amd64\wheel\.\gate
+creating build\bdist.win-amd64\wheel\grounded
+copying build\lib\grounded\cli.py -> build\bdist.win-amd64\wheel\.\grounded
+copying build\lib\grounded\curation.py -> build\bdist.win-amd64\wheel\.\grounded
+copying build\lib\grounded\g0_live.py -> build\bdist.win-amd64\wheel\.\grounded
+creating build\bdist.win-amd64\wheel\grounded\harness_adapters
+copying build\lib\grounded\harness_adapters\sovereign_product.py -> build\bdist.win-amd64\wheel\.\grounded\harness_adapters
+copying build\lib\grounded\harness_adapters\__init__.py -> build\bdist.win-amd64\wheel\.\grounded\harness_adapters
+copying build\lib\grounded\monitoring.py -> build\bdist.win-amd64\wheel\.\grounded
+copying build\lib\grounded\telemetry.py -> build\bdist.win-amd64\wheel\.\grounded
+copying build\lib\grounded\__init__.py -> build\bdist.win-amd64\wheel\.\grounded
+creating build\bdist.win-amd64\wheel\ops
+copying build\lib\ops\bundle.py -> build\bdist.win-amd64\wheel\.\ops
+copying build\lib\ops\evidence.py -> build\bdist.win-amd64\wheel\.\ops
+copying build\lib\ops\promotion.py -> build\bdist.win-amd64\wheel\.\ops
+copying build\lib\ops\__init__.py -> build\bdist.win-amd64\wheel\.\ops
+creating build\bdist.win-amd64\wheel\source_admission
+copying build\lib\source_admission\__init__.py -> build\bdist.win-amd64\wheel\.\source_admission
+creating build\bdist.win-amd64\wheel\train
+copying build\lib\train\card_lock.py -> build\bdist.win-amd64\wheel\.\train
+copying build\lib\train\__init__.py -> build\bdist.win-amd64\wheel\.\train
+creating build\bdist.win-amd64\wheel\validators
+copying build\lib\validators\__init__.py -> build\bdist.win-amd64\wheel\.\validators
+running install_egg_info
+Copying sovereign_grounded_distillery.egg-info to build\bdist.win-amd64\wheel\.\sovereign_grounded_distillery-1.1.0rc3-py3.13.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\sovereign_grounded_distillery-1.1.0rc3.dist-info\WHEEL
+creating 'D:\\_codex_tmp\\build_5ff6f56e_lcdc3xuy\\out\\.tmp-9ge7y67w\\sovereign_grounded_distillery-1.1.0rc3-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+adding 'curation/__init__.py'
+adding 'curation/shard.py'
+adding 'distillery/__init__.py'
+adding 'distillery/common.py'
+adding 'exclusion/__init__.py'
+adding 'gate/__init__.py'
+adding 'gate/controlled.py'
+adding 'gate/experiment_db.py'
+adding 'gate/historical.py'
+adding 'gate/paired.py'
+adding 'grounded/__init__.py'
+adding 'grounded/cli.py'
+adding 'grounded/curation.py'
+adding 'grounded/g0_live.py'
+adding 'grounded/monitoring.py'
+adding 'grounded/telemetry.py'
+adding 'grounded/harness_adapters/__init__.py'
+adding 'grounded/harness_adapters/sovereign_product.py'
+adding 'ops/__init__.py'
+adding 'ops/bundle.py'
+adding 'ops/evidence.py'
+adding 'ops/promotion.py'
+adding 'source_admission/__init__.py'
+adding 'train/__init__.py'
+adding 'train/card_lock.py'
+adding 'validators/__init__.py'
+adding 'sovereign_grounded_distillery-1.1.0rc3.dist-info/METADATA'
+adding 'sovereign_grounded_distillery-1.1.0rc3.dist-info/WHEEL'
+adding 'sovereign_grounded_distillery-1.1.0rc3.dist-info/entry_points.txt'
+adding 'sovereign_grounded_distillery-1.1.0rc3.dist-info/top_level.txt'
+adding 'sovereign_grounded_distillery-1.1.0rc3.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built sovereign_grounded_distillery-1.1.0rc3.tar.gz and sovereign_grounded_distillery-1.1.0rc3-py3-none-any.whl

@@ -1,0 +1,10 @@
+# utc: 2026-08-22T16:15:00Z
+# producer: ox-alpha GATE4B
+# proof: H-14 - /doc/<name> serves exactly the three named documents
+
+/doc/discovery      -> 200 text/markdown; charset=utf-8 nosniff; first line matches disk: '# DISCOVERY.md — SWS-UI-001 v1.2 Phase 1'
+/doc/theme-baseline -> 200 text/markdown; charset=utf-8 nosniff; first line matches disk: '# THEME-BASELINE.md — SWS-UI-001 v1.2'
+/doc/directive      -> 200 text/markdown; charset=utf-8 nosniff; first line matches disk: '# BUILD DIRECTIVE SWS-UI-001 v1.2 — Sovereign Workspace Shel'
+/doc/../AGENTS.md    -> 404 (traversal)
+/doc/other           -> 404 (unknown name)
+/doc/                -> 404 (no directory listing)

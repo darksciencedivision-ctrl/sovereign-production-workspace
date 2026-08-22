@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "json_files": 38,
+  "jsonl_files": 1,
+  "errors": []
+}
+
+exit=0
+PASS: 3 schemas well formed; live G0 manifest validates
+

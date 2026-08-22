@@ -1,0 +1,7 @@
+exit=0
+test_local_markdown_links_resolve (tests.test_contract_files.ContractFileTests.test_local_markdown_links_resolve) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.038s
+
+OK

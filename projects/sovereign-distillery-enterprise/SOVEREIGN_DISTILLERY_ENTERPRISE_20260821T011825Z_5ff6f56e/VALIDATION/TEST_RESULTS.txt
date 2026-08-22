@@ -1,0 +1,155 @@
+$ wsl.exe -d Ubuntu-24.04 --cd /mnt/d/Sovereign-Grounded-Distillery -- env PYTHONPYCACHEPREFIX=/tmp/SOVEREIGN_DISTILLERY_ENTERPRISE_20260821T011825Z_5ff6f56e_pycache python3 -m unittest discover -s tests -v
+exit=0
+wsl: Failed to translate 'E:\Program Files\Git\cmd'
+test_all_json_parses (test_contract_files.ContractFileTests.test_all_json_parses) ... ok
+test_canonical_docs_exist (test_contract_files.ContractFileTests.test_canonical_docs_exist) ... ok
+test_grounded_hg3_identity_and_trainer_registries_fail_closed (test_contract_files.ContractFileTests.test_grounded_hg3_identity_and_trainer_registries_fail_closed) ... ok
+test_local_markdown_links_resolve (test_contract_files.ContractFileTests.test_local_markdown_links_resolve) ... ok
+test_e7 (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_e7) ... ok
+test_event_log_replays_and_outcome_is_immutable (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_event_log_replays_and_outcome_is_immutable) ... ok
+test_exclusion_rejects_dangling_edges (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_exclusion_rejects_dangling_edges) ... ok
+test_g0_acceptance_probes (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_g0_acceptance_probes) ... ok
+test_sovereign_adapter_copies_no_content (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_sovereign_adapter_copies_no_content) ... ok
+test_controlled_eval_rejects_serving_change (test_gate.GateTests.test_controlled_eval_rejects_serving_change) ... ok
+test_historical_best_rejects_single_run_max (test_gate.GateTests.test_historical_best_rejects_single_run_max) ... ok
+test_paired_gate_pass_and_anti_ratchet (test_gate.GateTests.test_paired_gate_pass_and_anti_ratchet) ... ok
+test_power_does_not_select_policy (test_gate.GateTests.test_power_does_not_select_policy) ... ok
+test_predeclaration_ordering_rejects_late_equal_missing_and_unparseable (test_gate.GateTests.test_predeclaration_ordering_rejects_late_equal_missing_and_unparseable) ... ok
+test_tail_semantics_are_explicit (test_gate.GateTests.test_tail_semantics_are_explicit) ... ok
+test_unpaired_path_rejected (test_gate.GateTests.test_unpaired_path_rejected) ... ok
+test_canonical_checksum_registry_records_exact_dirty_runtime (test_live_g0.LiveG0Tests.test_canonical_checksum_registry_records_exact_dirty_runtime) ... ok
+test_canonical_live_manifest_is_content_free_and_row_verifiable (test_live_g0.LiveG0Tests.test_canonical_live_manifest_is_content_free_and_row_verifiable) ... ok
+test_checksum_baseline_requires_dirty_provenance (test_live_g0.LiveG0Tests.test_checksum_baseline_requires_dirty_provenance) ... ok
+test_checksum_guard_detects_mutation (test_live_g0.LiveG0Tests.test_checksum_guard_detects_mutation) ... ok
+test_hg0_reevaluation_requires_real_marks_and_preserved_controls (test_live_g0.LiveG0Tests.test_hg0_reevaluation_requires_real_marks_and_preserved_controls) ... ok
+test_imported_records_are_content_free_but_do_not_complete_hg0 (test_live_g0.LiveG0Tests.test_imported_records_are_content_free_but_do_not_complete_hg0) ... ok
+test_label_origin_is_required_and_manifest_is_hashed (test_live_g0.LiveG0Tests.test_label_origin_is_required_and_manifest_is_hashed) ... ok
+test_corrupted_router_read_is_classified (test_ops_and_train.OpsAndTrainTests.test_corrupted_router_read_is_classified) ... ok
+test_exact_bundle_and_mutation_rejection (test_ops_and_train.OpsAndTrainTests.test_exact_bundle_and_mutation_rejection) ... ok
+test_experiment_db_refuses_incomplete_completion (test_ops_and_train.OpsAndTrainTests.test_experiment_db_refuses_incomplete_completion) ... ok
+test_promotion_requires_human_and_rolls_back (test_ops_and_train.OpsAndTrainTests.test_promotion_requires_human_and_rolls_back) ... ok
+test_rollback_write_failure_is_terminal_and_prior_is_recoverable (test_ops_and_train.OpsAndTrainTests.test_rollback_write_failure_is_terminal_and_prior_is_recoverable) ... ok
+test_router_fsync_precedes_closed_file_replace (test_ops_and_train.OpsAndTrainTests.test_router_fsync_precedes_closed_file_replace) ... ok
+test_shadow_has_no_execute_surface (test_ops_and_train.OpsAndTrainTests.test_shadow_has_no_execute_surface) ... ok
+test_successful_promotion_and_write_failure_states (test_ops_and_train.OpsAndTrainTests.test_successful_promotion_and_write_failure_states) ... ok
+test_trainer_lock_validates_identity_and_conflicts (test_ops_and_train.OpsAndTrainTests.test_trainer_lock_validates_identity_and_conflicts) ... ok
+test_ch_m_volatile_fact_is_retrieval_only (test_source_and_shards.SourceAndShardTests.test_ch_m_volatile_fact_is_retrieval_only) ... ok
+test_deterministic_validators_share_result_contract (test_source_and_shards.SourceAndShardTests.test_deterministic_validators_share_result_contract) ... ok
+test_miner_preserves_recovery_but_masks_failed_turn (test_source_and_shards.SourceAndShardTests.test_miner_preserves_recovery_but_masks_failed_turn) ... ok
+test_shard_rejects_multi_client_and_snapshot_forgery (test_source_and_shards.SourceAndShardTests.test_shard_rejects_multi_client_and_snapshot_forgery) ... ok
+test_shard_seal_hash_and_immutability (test_source_and_shards.SourceAndShardTests.test_shard_seal_hash_and_immutability) ... ok
+test_state_machine_and_snapshot_are_append_only (test_source_and_shards.SourceAndShardTests.test_state_machine_and_snapshot_are_append_only) ... ok
+test_unknown_is_default_and_fails_closed (test_source_and_shards.SourceAndShardTests.test_unknown_is_default_and_fails_closed) ... ok
+test_grounded_scope_contract (test_treaty_contracts.TreatyContractTests.test_grounded_scope_contract) ... ok
+test_import_map_destination_hashes (test_treaty_contracts.TreatyContractTests.test_import_map_destination_hashes) ... ok
+test_shared_infrastructure_and_fail_closed_registry_contract (test_treaty_contracts.TreatyContractTests.test_shared_infrastructure_and_fail_closed_registry_contract) ... ok
+test_sovereign_scope_contract (test_treaty_contracts.TreatyContractTests.test_sovereign_scope_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 3.737s
+
+OK
+
+
+$ C:\Users\Sslaw\AppData\Roaming\uv\python\cpython-3.11.16-windows-x86_64-none\python.exe -m unittest discover -s tests -v
+exit=0
+test_all_json_parses (test_contract_files.ContractFileTests.test_all_json_parses) ... ok
+test_canonical_docs_exist (test_contract_files.ContractFileTests.test_canonical_docs_exist) ... ok
+test_grounded_hg3_identity_and_trainer_registries_fail_closed (test_contract_files.ContractFileTests.test_grounded_hg3_identity_and_trainer_registries_fail_closed) ... ok
+test_local_markdown_links_resolve (test_contract_files.ContractFileTests.test_local_markdown_links_resolve) ... ok
+test_e7 (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_e7) ... ok
+test_event_log_replays_and_outcome_is_immutable (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_event_log_replays_and_outcome_is_immutable) ... ok
+test_exclusion_rejects_dangling_edges (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_exclusion_rejects_dangling_edges) ... ok
+test_g0_acceptance_probes (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_g0_acceptance_probes) ... ok
+test_sovereign_adapter_copies_no_content (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_sovereign_adapter_copies_no_content) ... ok
+test_controlled_eval_rejects_serving_change (test_gate.GateTests.test_controlled_eval_rejects_serving_change) ... ok
+test_historical_best_rejects_single_run_max (test_gate.GateTests.test_historical_best_rejects_single_run_max) ... ok
+test_paired_gate_pass_and_anti_ratchet (test_gate.GateTests.test_paired_gate_pass_and_anti_ratchet) ... ok
+test_power_does_not_select_policy (test_gate.GateTests.test_power_does_not_select_policy) ... ok
+test_predeclaration_ordering_rejects_late_equal_missing_and_unparseable (test_gate.GateTests.test_predeclaration_ordering_rejects_late_equal_missing_and_unparseable) ... ok
+test_tail_semantics_are_explicit (test_gate.GateTests.test_tail_semantics_are_explicit) ... ok
+test_unpaired_path_rejected (test_gate.GateTests.test_unpaired_path_rejected) ... ok
+test_canonical_checksum_registry_records_exact_dirty_runtime (test_live_g0.LiveG0Tests.test_canonical_checksum_registry_records_exact_dirty_runtime) ... ok
+test_canonical_live_manifest_is_content_free_and_row_verifiable (test_live_g0.LiveG0Tests.test_canonical_live_manifest_is_content_free_and_row_verifiable) ... ok
+test_checksum_baseline_requires_dirty_provenance (test_live_g0.LiveG0Tests.test_checksum_baseline_requires_dirty_provenance) ... ok
+test_checksum_guard_detects_mutation (test_live_g0.LiveG0Tests.test_checksum_guard_detects_mutation) ... ok
+test_hg0_reevaluation_requires_real_marks_and_preserved_controls (test_live_g0.LiveG0Tests.test_hg0_reevaluation_requires_real_marks_and_preserved_controls) ... ok
+test_imported_records_are_content_free_but_do_not_complete_hg0 (test_live_g0.LiveG0Tests.test_imported_records_are_content_free_but_do_not_complete_hg0) ... ok
+test_label_origin_is_required_and_manifest_is_hashed (test_live_g0.LiveG0Tests.test_label_origin_is_required_and_manifest_is_hashed) ... ok
+test_corrupted_router_read_is_classified (test_ops_and_train.OpsAndTrainTests.test_corrupted_router_read_is_classified) ... ok
+test_exact_bundle_and_mutation_rejection (test_ops_and_train.OpsAndTrainTests.test_exact_bundle_and_mutation_rejection) ... ok
+test_experiment_db_refuses_incomplete_completion (test_ops_and_train.OpsAndTrainTests.test_experiment_db_refuses_incomplete_completion) ... ok
+test_promotion_requires_human_and_rolls_back (test_ops_and_train.OpsAndTrainTests.test_promotion_requires_human_and_rolls_back) ... ok
+test_rollback_write_failure_is_terminal_and_prior_is_recoverable (test_ops_and_train.OpsAndTrainTests.test_rollback_write_failure_is_terminal_and_prior_is_recoverable) ... ok
+test_router_fsync_precedes_closed_file_replace (test_ops_and_train.OpsAndTrainTests.test_router_fsync_precedes_closed_file_replace) ... ok
+test_shadow_has_no_execute_surface (test_ops_and_train.OpsAndTrainTests.test_shadow_has_no_execute_surface) ... ok
+test_successful_promotion_and_write_failure_states (test_ops_and_train.OpsAndTrainTests.test_successful_promotion_and_write_failure_states) ... ok
+test_trainer_lock_validates_identity_and_conflicts (test_ops_and_train.OpsAndTrainTests.test_trainer_lock_validates_identity_and_conflicts) ... ok
+test_ch_m_volatile_fact_is_retrieval_only (test_source_and_shards.SourceAndShardTests.test_ch_m_volatile_fact_is_retrieval_only) ... ok
+test_deterministic_validators_share_result_contract (test_source_and_shards.SourceAndShardTests.test_deterministic_validators_share_result_contract) ... ok
+test_miner_preserves_recovery_but_masks_failed_turn (test_source_and_shards.SourceAndShardTests.test_miner_preserves_recovery_but_masks_failed_turn) ... ok
+test_shard_rejects_multi_client_and_snapshot_forgery (test_source_and_shards.SourceAndShardTests.test_shard_rejects_multi_client_and_snapshot_forgery) ... ok
+test_shard_seal_hash_and_immutability (test_source_and_shards.SourceAndShardTests.test_shard_seal_hash_and_immutability) ... ok
+test_state_machine_and_snapshot_are_append_only (test_source_and_shards.SourceAndShardTests.test_state_machine_and_snapshot_are_append_only) ... ok
+test_unknown_is_default_and_fails_closed (test_source_and_shards.SourceAndShardTests.test_unknown_is_default_and_fails_closed) ... ok
+test_grounded_scope_contract (test_treaty_contracts.TreatyContractTests.test_grounded_scope_contract) ... ok
+test_import_map_destination_hashes (test_treaty_contracts.TreatyContractTests.test_import_map_destination_hashes) ... ok
+test_shared_infrastructure_and_fail_closed_registry_contract (test_treaty_contracts.TreatyContractTests.test_shared_infrastructure_and_fail_closed_registry_contract) ... ok
+test_sovereign_scope_contract (test_treaty_contracts.TreatyContractTests.test_sovereign_scope_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.645s
+
+OK
+
+
+$ C:\Python314\python.exe -m unittest discover -s tests -v
+exit=0
+test_all_json_parses (test_contract_files.ContractFileTests.test_all_json_parses) ... ok
+test_canonical_docs_exist (test_contract_files.ContractFileTests.test_canonical_docs_exist) ... ok
+test_grounded_hg3_identity_and_trainer_registries_fail_closed (test_contract_files.ContractFileTests.test_grounded_hg3_identity_and_trainer_registries_fail_closed) ... ok
+test_local_markdown_links_resolve (test_contract_files.ContractFileTests.test_local_markdown_links_resolve) ... ok
+test_e7 (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_e7) ... ok
+test_event_log_replays_and_outcome_is_immutable (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_event_log_replays_and_outcome_is_immutable) ... ok
+test_exclusion_rejects_dangling_edges (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_exclusion_rejects_dangling_edges) ... ok
+test_g0_acceptance_probes (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_g0_acceptance_probes) ... ok
+test_sovereign_adapter_copies_no_content (test_exclusion_and_telemetry.ExclusionAndTelemetryTests.test_sovereign_adapter_copies_no_content) ... ok
+test_controlled_eval_rejects_serving_change (test_gate.GateTests.test_controlled_eval_rejects_serving_change) ... ok
+test_historical_best_rejects_single_run_max (test_gate.GateTests.test_historical_best_rejects_single_run_max) ... ok
+test_paired_gate_pass_and_anti_ratchet (test_gate.GateTests.test_paired_gate_pass_and_anti_ratchet) ... ok
+test_power_does_not_select_policy (test_gate.GateTests.test_power_does_not_select_policy) ... ok
+test_predeclaration_ordering_rejects_late_equal_missing_and_unparseable (test_gate.GateTests.test_predeclaration_ordering_rejects_late_equal_missing_and_unparseable) ... ok
+test_tail_semantics_are_explicit (test_gate.GateTests.test_tail_semantics_are_explicit) ... ok
+test_unpaired_path_rejected (test_gate.GateTests.test_unpaired_path_rejected) ... ok
+test_canonical_checksum_registry_records_exact_dirty_runtime (test_live_g0.LiveG0Tests.test_canonical_checksum_registry_records_exact_dirty_runtime) ... ok
+test_canonical_live_manifest_is_content_free_and_row_verifiable (test_live_g0.LiveG0Tests.test_canonical_live_manifest_is_content_free_and_row_verifiable) ... ok
+test_checksum_baseline_requires_dirty_provenance (test_live_g0.LiveG0Tests.test_checksum_baseline_requires_dirty_provenance) ... ok
+test_checksum_guard_detects_mutation (test_live_g0.LiveG0Tests.test_checksum_guard_detects_mutation) ... ok
+test_hg0_reevaluation_requires_real_marks_and_preserved_controls (test_live_g0.LiveG0Tests.test_hg0_reevaluation_requires_real_marks_and_preserved_controls) ... ok
+test_imported_records_are_content_free_but_do_not_complete_hg0 (test_live_g0.LiveG0Tests.test_imported_records_are_content_free_but_do_not_complete_hg0) ... ok
+test_label_origin_is_required_and_manifest_is_hashed (test_live_g0.LiveG0Tests.test_label_origin_is_required_and_manifest_is_hashed) ... ok
+test_corrupted_router_read_is_classified (test_ops_and_train.OpsAndTrainTests.test_corrupted_router_read_is_classified) ... ok
+test_exact_bundle_and_mutation_rejection (test_ops_and_train.OpsAndTrainTests.test_exact_bundle_and_mutation_rejection) ... ok
+test_experiment_db_refuses_incomplete_completion (test_ops_and_train.OpsAndTrainTests.test_experiment_db_refuses_incomplete_completion) ... ok
+test_promotion_requires_human_and_rolls_back (test_ops_and_train.OpsAndTrainTests.test_promotion_requires_human_and_rolls_back) ... ok
+test_rollback_write_failure_is_terminal_and_prior_is_recoverable (test_ops_and_train.OpsAndTrainTests.test_rollback_write_failure_is_terminal_and_prior_is_recoverable) ... ok
+test_router_fsync_precedes_closed_file_replace (test_ops_and_train.OpsAndTrainTests.test_router_fsync_precedes_closed_file_replace) ... ok
+test_shadow_has_no_execute_surface (test_ops_and_train.OpsAndTrainTests.test_shadow_has_no_execute_surface) ... ok
+test_successful_promotion_and_write_failure_states (test_ops_and_train.OpsAndTrainTests.test_successful_promotion_and_write_failure_states) ... ok
+test_trainer_lock_validates_identity_and_conflicts (test_ops_and_train.OpsAndTrainTests.test_trainer_lock_validates_identity_and_conflicts) ... ok
+test_ch_m_volatile_fact_is_retrieval_only (test_source_and_shards.SourceAndShardTests.test_ch_m_volatile_fact_is_retrieval_only) ... ok
+test_deterministic_validators_share_result_contract (test_source_and_shards.SourceAndShardTests.test_deterministic_validators_share_result_contract) ... ok
+test_miner_preserves_recovery_but_masks_failed_turn (test_source_and_shards.SourceAndShardTests.test_miner_preserves_recovery_but_masks_failed_turn) ... ok
+test_shard_rejects_multi_client_and_snapshot_forgery (test_source_and_shards.SourceAndShardTests.test_shard_rejects_multi_client_and_snapshot_forgery) ... ok
+test_shard_seal_hash_and_immutability (test_source_and_shards.SourceAndShardTests.test_shard_seal_hash_and_immutability) ... ok
+test_state_machine_and_snapshot_are_append_only (test_source_and_shards.SourceAndShardTests.test_state_machine_and_snapshot_are_append_only) ... ok
+test_unknown_is_default_and_fails_closed (test_source_and_shards.SourceAndShardTests.test_unknown_is_default_and_fails_closed) ... ok
+test_grounded_scope_contract (test_treaty_contracts.TreatyContractTests.test_grounded_scope_contract) ... ok
+test_import_map_destination_hashes (test_treaty_contracts.TreatyContractTests.test_import_map_destination_hashes) ... ok
+test_shared_infrastructure_and_fail_closed_registry_contract (test_treaty_contracts.TreatyContractTests.test_shared_infrastructure_and_fail_closed_registry_contract) ... ok
+test_sovereign_scope_contract (test_treaty_contracts.TreatyContractTests.test_sovereign_scope_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.712s
+
+OK

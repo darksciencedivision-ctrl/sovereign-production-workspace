@@ -1,0 +1,8 @@
+{
+  "hard_secret_findings": [],
+  "known_private_runtime_payloads": [],
+  "model_weight_files": [],
+  "oversized_files": [],
+  "scope_note": "Pattern-based scan; no scanner can guarantee absence of every possible secret.",
+  "unexpected_binary_files": []
+}

@@ -1,0 +1,8 @@
+.bundle,1
+.json,38
+.jsonl,1
+.md,32
+.py,37
+.toml,1
+.txt,19
+[none],2

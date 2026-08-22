@@ -1,0 +1,2 @@
+FSWATCH-DRIVER started_utc=2026-08-22T01:13:16Z roots=['D:\\Product Software', 'D:\\multi model terminal app', 'D:\\Sovereign Distillery']
+FSWATCH-DRIVER stopped_utc=2026-08-22T16:22:54Z window_s=54578 events=0 errors=0 out=D:\Product Software\Production Workspace\evidence\gate4b\fs-watch-gate4b.txt

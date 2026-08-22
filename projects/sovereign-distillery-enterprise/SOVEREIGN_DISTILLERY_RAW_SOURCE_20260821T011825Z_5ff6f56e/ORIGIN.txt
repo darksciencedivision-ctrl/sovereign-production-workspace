@@ -1,0 +1,29 @@
+Repository:
+D:\Sovereign-Grounded-Distillery
+
+Branch:
+remediation/hardware-rebaseline-pre-hg3
+
+Commit:
+5ff6f56ea4448cbdf7384cbcba0f64073934ca05
+
+origin/main:
+44f69077f0d674bd7bef5730c2fe41a685e64b03
+
+Created UTC:
+2026-08-21T01:18:25Z
+
+Export policy:
+RAW byte-preserving Python/PowerShell/JSON export
+
+Allowed extensions:
+.py .ps1 .psm1 .psd1 .json
+
+Source categories:
+SOVEREIGN_SPECIFIC
+SHARED_DISTILLERY_CORE
+SOVEREIGN_TOOLS
+SOVEREIGN_TESTS
+CONFIGURATION
+
+No model weights, raw runtime payloads, private corpora, or credentials are intentionally included.

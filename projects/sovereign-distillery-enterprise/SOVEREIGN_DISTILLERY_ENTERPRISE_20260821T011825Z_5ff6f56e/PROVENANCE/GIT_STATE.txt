@@ -1,0 +1,6 @@
+## remediation/hardware-rebaseline-pre-hg3
+working_tree_clean=true
+staged_clean=true
+untracked_count=0
+merge_base=44f69077f0d674bd7bef5730c2fe41a685e64b03
+tags_at_head=(none)
