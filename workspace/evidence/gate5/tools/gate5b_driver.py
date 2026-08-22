@@ -220,6 +220,9 @@ def mode_client(args):
     elif cmd == "post":
         status, text = http_post(args[1], json.loads(args[2]))
         write_out(args[2], "POST {} {}".format(args[1], args[2]), status, text)
+    elif cmd == "stop":
+        status, text = http_post("/api/stop", {"id": args[1]})
+        write_out(args[2], "POST /api/stop id={}".format(args[1]), status, text)
     elif cmd == "startup-test":
         keep = args[2] == "keep"
         status, text = http_post("/api/startup-test",

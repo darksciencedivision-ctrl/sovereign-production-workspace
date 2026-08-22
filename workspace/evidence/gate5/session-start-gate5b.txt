@@ -44,3 +44,15 @@ quiescence_ports_free     : True
 quiescence_no_module_proc : True
 decisions_hash_matches    : True
 VERDICT: HOST_QUIESCENT
+
+# ADDENDUM utc: 2026-08-22T20:52:09.5708620Z (superseding note appended on operator instruction after a stalled,
+# operator-interrupted stretch of this session; nothing above is altered)
+# The session resumed without restarting any helper. Verification at 2026-08-22T20:52:09.5708620Z :
+#   Get-Process 39432 fswatch-driver : alive (py)
+#   Get-Process 39840 poller-driver  : alive (py)
+#   Get-Process 11684 shell-driver   : alive (py)
+#   Get-Process 19332 shell (py launcher): alive; python child pid 34676 owns the listener
+#   Get-NetTCPConnection -State Listen -LocalPort 5180 : 127.0.0.1:5180 only (OwningProcess 34676)
+#   module-tree process scan (*Production Workspace\modules*): none
+# H-12 watcher window opened 2026-08-22T19:33:13Z (fswatch-driver-gate5b.log) and was never
+# stopped; it stays unbroken across the interruption.

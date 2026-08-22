@@ -29,6 +29,9 @@ projects/    the four deliverable repositories, vendored verbatim (each with its
   sow-multi-model-terminal/
   sovereign-distillery-enterprise/
 EXCLUDED-FROM-REPO.txt   every file under Production Workspace\ that was left out, and why
+SNAPSHOT.json            UTC and file counts of the last workspace/ sync
+PUBLISHING.md            how this repository was produced, verified, and how to refresh the snapshot
+tools/publish/           sync_workspace.py (re-snapshot tool) + sow_tracked.txt (the 947-file SOW tracked list at 6d23a81)
 SHA256SUMS.txt           lowercase SHA-256 of every file in this repository
 ```
 
@@ -76,6 +79,9 @@ ignores (`tools/spike_compositor/results/`, `config/live_operation.json`, `.clau
 
 ## Provenance notes
 
+- `workspace/` is a point-in-time copy; `SNAPSHOT.json` records when. At first publication the SWS-UI-001
+  Gate 5 visual re-run (Gate 5b) session was **in progress** and writing to `evidence/gate5/`, so the snapshot
+  captures a mid-session state. Refresh it with `py -3.12 tools/publish/sync_workspace.py` (see `PUBLISHING.md`).
 - Paths inside the evidence files are absolute host paths (`D:\Product Software\...`); in this repository the
   same files sit under `workspace/`. The evidence manifests in `workspace/evidence/manifests/` hash
   `D:\Product Software` *excluding* `Production Workspace/**`, i.e. they cover the deliverables now under `projects/`.
