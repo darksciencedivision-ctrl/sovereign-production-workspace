@@ -22,7 +22,7 @@ workspace/   D:\Product Software\Production Workspace\ - byte-for-byte (runtime 
   modules/
     debate/      Debate Table v1.2 P1 as installed (= projects/debate-table-production zip contents + INSTALL-PROVENANCE.json)
     sovereign/   SOVEREIGN 3.1.2 as installed (= projects/sovereign-enterprise-production zip contents + INSTALL-PROVENANCE.json + WORKSPACE-RESOLVED-LOCK.txt)
-    sow/         SOW tracked tree at live commit 6d23a81 (+ INSTALL-PROVENANCE.json, docs/evidence, spike results); runtime state excluded
+    sow/         SOW tracked tree at live commit 6d23a81 (+ INSTALL-PROVENANCE.json, docs/evidence); runtime state excluded
 projects/    the four deliverable repositories, vendored verbatim (each with its own README + SHA256SUMS.txt)
   sovereign-enterprise-production/
   debate-table-production/
@@ -61,7 +61,7 @@ verbatim with UTC in `workspace/evidence/OPERATOR-INSTRUCTIONS.log` (AGENTS.md s
 
 ## What is excluded, and why
 
-`EXCLUDED-FROM-REPO.txt` lists every file (624 lines: 617 modules/sow junk, 2 pycache, 2 modules/sovereign runtime, 2 modules/sow untracked-local, 1 modules/debate runtime).
+`EXCLUDED-FROM-REPO.txt` lists every file (636 lines: 617 modules/sow junk, 12 modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore), 2 modules/sovereign runtime, 2 modules/sow untracked-local, 2 pycache, 1 modules/debate runtime).
 In short: virtualenvs, `node_modules` (incl. the hash-verified Electron 31.7.7 dist), `__pycache__`,
 SQLite stores (`modules/sovereign/runtime/sovereign.db`, `modules/sow/.sovereign_store/`), SOW loop logs
 (84 MB), SOW per-run approval/recovery state, `config/live_operation.json`, a local Claude settings file,
@@ -71,7 +71,8 @@ and a stray Windows `%SystemDrive%\ProgramData\...\Caches` directory that `roboc
 `modules/debate` and `modules/sovereign` contain exactly the files their production archives contain
 (verifiable against the zips in `projects/`) plus the workspace's own `INSTALL-PROVENANCE.json` / lock.
 `modules/sow` contains exactly the 947 files tracked by the live SOW repository at `6d23a81` plus the
-workspace-relevant untracked files (`INSTALL-PROVENANCE.json`, `docs/evidence/*.md`, `tools/spike_compositor/results/*`).
+workspace-relevant untracked files (`INSTALL-PROVENANCE.json`, `docs/evidence/*.md`). Files the SOW repository itself
+ignores (`tools/spike_compositor/results/`, `config/live_operation.json`, `.claude/settings.local.json`) are excluded here too.
 
 ## Provenance notes
 

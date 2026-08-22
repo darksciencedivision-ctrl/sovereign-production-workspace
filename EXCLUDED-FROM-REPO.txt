@@ -623,5 +623,17 @@ modules/sow junk	voice_bridge/__pycache__/conductor_voice.cpython-314.pyc
 modules/sow junk	voice_bridge/__pycache__/spoken_verbs.cpython-314.pyc
 modules/sow untracked-local	.claude/settings.local.json
 modules/sow untracked-local	config/live_operation.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-16T22-24-34-444Z.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-16T22-24-34-444Z.md
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-17-08-522Z.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-17-08-522Z.md
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-21-59-491Z.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-21-59-491Z.md
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-24-00-515Z.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-24-00-515Z.md
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-27-13-485Z.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-27-13-485Z.md
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-33-56-956Z.json
+modules/sow untracked-local (ignored by SOW's own tools/spike_compositor/.gitignore)	tools/spike_compositor/results/SPIKE_REPORT_2026-07-17T02-33-56-956Z.md
 pycache	shell/src/__pycache__/__init__.cpython-314.pyc
 pycache	shell/src/__pycache__/startup_test.cpython-314-pytest-9.1.1.pyc
